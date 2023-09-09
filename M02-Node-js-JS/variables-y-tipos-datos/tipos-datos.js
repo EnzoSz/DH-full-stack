@@ -45,3 +45,5 @@ console.log(persona);
 
 let paises = ['Argentina', 'Colombia', 'Venezuela'];
 console.log(paises);
+
+console.log( "Gato" || "Perro");
