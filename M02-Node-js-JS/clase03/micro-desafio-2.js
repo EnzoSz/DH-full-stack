@@ -11,12 +11,9 @@ calculoAumento = (sueldoActual * porcentajeAumento) / 100;
 nuevoSueldo = sueldoActual + calculoAumento;
 // Mostramos por pantalla el nombre del empleado con el sueldo actualizado
 
-console.log(`Hola estimad@ ${nombre} ${apellido} \n En base a su sueldo actual: \n`);
-console.log(`$${sueldoActual}\n`);
-console.log(`Ha recibido un aumento del 25%: \n`);
-console.log(`$${calculoAumento}\n`);
-console.log(`y su nuevo sueldo es: $${nuevoSueldo}`);
-
-
-
+console.log(`Hola estimad@ ${nombre} ${apellido} \n En base a su sueldo actual: \n
+$${sueldoActual}\n
+Ha recibido un aumento del 25%: \n
+$${calculoAumento}\n
+y su nuevo sueldo es: $${nuevoSueldo}`);
 

@@ -8,7 +8,7 @@ let fechaPartido = "25-09-23";
 let horaPartido = "18hs";
 let numeroSilla = 250;
 let precioBoleto = 4500.0;
-
+// mostramos por pantalla los valores de la variables
 console.log(nombre);
 console.log(apellido);
 console.log("Edad: " + edad);
@@ -20,7 +20,7 @@ console.log("numero de silla: " + numeroSilla);
 console.log("precio: " + precioBoleto);
 
 console.log(" ");
-
+// mostramos por pantalla el tipo de dato de cada variable
 console.log(`Nombre es de tipo: ${typeof nombre} \n
 Apellido es de tipo: ${typeof apellido} \n
 Edad es de tipo: ${typeof edad} \n
