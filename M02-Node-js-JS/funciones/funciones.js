@@ -1,4 +1,4 @@
-//funciones expresadas
+/* //funciones expresadas
 
 let sumar = function (numeroA, numeroB) {
   return numeroA + numeroB;
@@ -42,3 +42,18 @@ let tengoQueTrabajar = (dia) => {
 };
 
 console.log(tengoQueTrabajar('Lunes'));
+ */
+
+//funcion callbacks
+  // son funcioones que utilizamos como parametros de otras funciones
+
+let sumar = (numero1, numero2) => numero1 + numero2;
+let restar = (numero1, numero2) => numero1 - numero2;
+let multiplicar = (numero1, numero2) => numero1 * numero2;
+let dividir = (numero1, numero2) => numero1 / numero2;
+
+let calculadora = (numero1,numero2, operacion) => operacion(numero1,numero2);
+
+/* Llamamos a la funcion calculadora */
+console.log(calculadora(30,3,restar));
+
