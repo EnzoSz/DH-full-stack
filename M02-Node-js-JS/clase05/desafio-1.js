@@ -26,7 +26,7 @@ function totalApagar(tipoVehiculo, diasAlquiler, sillaBebe) {
   if (sillaBebe == true && total !== 0) {
     total += 1200;
   }
-  console.log(`EL total a pagar es de: $${total}`);
+  return console.log(`EL total a pagar es de: $${total}`);
 }
 
 totalApagar(tipoVehiculo, diasAlquiler, sillaBebe);

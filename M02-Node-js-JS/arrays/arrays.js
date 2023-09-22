@@ -28,27 +28,27 @@ console.log(nota1) */
 
 //Metodo shift y unshift
 /* elimina el primer elemento del arrays */
-notas.shift();
+/* notas.shift(); */
 /* agrega en la primer posicion del arrays el valor que queremos */
-notas.unshift(1);
-
+/* notas.unshift(1);
+ */
 /* Medodo indexOf 
     Busca el elemento de un arrays, y recorre el arrays desde la posicion
     0 y nos muestra en que posicion esta, 
     en caso de que no lo encuentre retorna -1
 */
-let posicionDelOcho = notas.indexOf(8);
+/* let posicionDelOcho = notas.indexOf(8); */
 
 /* Metodo lastIndexOf 
     Busca el elemento de un arrays, pero comienza desde la ultima posicion,
     y muestra la posicion
 */
- let posicionDelOcho2 = notas.lastIndexOf(8)
+/*  let posicionDelOcho2 = notas.lastIndexOf(8) */
 
 /* Metodo join 
     Nos muestra el todo el contenido que tenga el arrays como un string
 */
-let resultadoJuntado = notas.join('-');
+/* let resultadoJuntado = notas.join('-');
 
 
 
@@ -57,4 +57,42 @@ console.log(resultadoJuntado);
 console.log(posicionDelOcho);
 console.log(posicionDelOcho2);
 
-console.log(notas);
+console.log(notas); */
+
+
+/* Metodos de String */
+let mensaje = 'Gran dia para practicar Javascript!';
+console.log(mensaje);
+
+// metodo length
+
+console.log(mensaje.length);
+
+//metodo indexOf
+
+console.log(mensaje.indexOf('dia'));
+
+//metodo slice
+
+console.log(mensaje.slice(0,24));
+
+//metodo trim
+
+console.log(mensaje.trim());
+
+//metodo split
+
+console.log(mensaje.split(' '));
+
+
+//metodo replace
+
+console.log(mensaje.replace('Javascript', 'todo'));
+console.log(mensaje);
+
+
+
+let frase = 'Hola!, soy Carli';
+
+let licenciada = frase.slice(11,16);
+console.log(licenciada);
