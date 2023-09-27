@@ -61,7 +61,7 @@ número par es aquel que se puede dividir entre 2. */
 let numerosPositivos = [1, 2, 43, 50, 60, 100, 10, 20, 23, 25,11];
 
 const numerosPares = (numerosPositivos) => {
-  numPares = [];
+  const numPares = [];
   for (let i = 0; i < numerosPositivos.length; i++) {
     if (numerosPositivos[i] % 2 === 0) {
       numPares.push(numerosPositivos[i]);
@@ -71,3 +71,9 @@ const numerosPares = (numerosPositivos) => {
 };
 
 console.log(numerosPares(numerosPositivos));
+
+
+/* Esta es otra forma de resolver este ejercicio utilizando el metodo filter.
+Este metodo retorna un nuevo array con la condiciones que nosotros necesitemos  */
+const numPares = numerosPositivos.filter(numero => numero %2 ===0);
+console.log(numPares);
