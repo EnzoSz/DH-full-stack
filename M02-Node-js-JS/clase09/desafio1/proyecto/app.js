@@ -2,7 +2,7 @@
 
 let peliculas = require("./peliculas");
 
-//mostramos el usuario cada la informacion de cada pelicula
+//mostramos el usuario la informacion de cada pelicula
 
 function informacionPeliculas(peliculas) {
   for (let i = 0; i < peliculas.length; i++) {
@@ -19,7 +19,7 @@ function informacionPeliculas(peliculas) {
 
 /* console.log(peliculas); */
 
-/* Ejecutamos la funcion para mostrar por concola la info de cada peli */
+/* Ejecutamos la funcion para mostrar por consola la info de cada peli */
 informacionPeliculas(peliculas);
 
 /* Desafio 2 */
