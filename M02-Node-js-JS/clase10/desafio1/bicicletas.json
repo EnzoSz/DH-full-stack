@@ -9,7 +9,7 @@
       "Peso": 13,
       "Tipo": "Montañera",
       "Precio": 799.99,
-      "Vendida": true
+      "Vendida": false
     },
     {
       "id": 2,

@@ -9,10 +9,10 @@ let dhBici = {
       //la variable buscar guardara un array con el elemento encontrado
       return bici.id == id;
     });
-    if (buscar == "") {
+    if (buscar.length ==0) {
       return null;
     } else {
-      return buscar;
+      return buscar[0];
     }
   },
   venderBici: function (id) {
@@ -20,8 +20,8 @@ let dhBici = {
     if (encontrar == null) {
       return `Bicicleta no encontrada`;
     } else {
-      encontrar[0].Vendida = true;
-      return encontrar[0];
+      encontrar.Vendida = true;
+      return encontrar;
     }
   },
   biciParaLaVenta: function () {
