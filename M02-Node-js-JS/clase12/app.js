@@ -53,6 +53,14 @@ const concesionaria = {
     // Si ambas condiciones se cumplen, la persona puede comprar el auto
     return true;
   },
+  autosQuePuedeComprar: function (person) {
+    let autoEnVenta = this.autosParaLaVenta();
+
+    let autoQuePuedeComprar = autoEnVenta.filter((auto) =>
+      this.puedeComprar(auto, person)
+    );
+    return autoQuePuedeComprar;
+  },
 };
 
 let persona = {
