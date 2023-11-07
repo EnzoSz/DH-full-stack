@@ -1,0 +1,23 @@
+.container {
+    background-image:url('pexels-philipp-m-100582.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+   
+}
+p {
+    color: #000;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.9em;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: justify;
+}
