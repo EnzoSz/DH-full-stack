@@ -1,4 +1,4 @@
-.container {
+/* .container {
     background-image:url('pexels-philipp-m-100582.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -10,7 +10,7 @@
     height: 200px;
     border-radius: 10px;
    
-}
+} */
 p {
     color: #000;
     font-size: 1.1em;
@@ -20,4 +20,12 @@ p {
     padding: 0;
     font-weight: bold;
     text-align: justify;
+}
+
+p::before {
+    content: 'Voy antes!'
+}
+
+p::after {
+    content: 'Voy despues!'
 }

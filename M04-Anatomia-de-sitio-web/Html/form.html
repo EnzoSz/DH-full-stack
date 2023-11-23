@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="usuario">Nombre:</label>
+      <input type="text" name="usuario" />
+
+      <label for="password">Contraseña:</label>
+      <input type="password" name="password" />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" />
+
+      <label for="telefono">Telefono:</label>
+      <input type="tel" name="telefono" />
+
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" />
+      <label>Fecha:</label>
+        <input type="date" name="fecha" />
+      <label for="cometario">Deje su comentario</label>
+      <textarea name="comentario" id="comentario" cols="30" rows="10">
+        Contenido
+      </textarea>
+
+      <label>Seleccione Pais:</label>
+      <select name="pais" id="pais">
+        <option value="Arg">Argentina</option>
+        <option value="Col">Colombia</option>
+        <option value="Ven">Venezuela</option>
+        <option value="Ecu">Ecuador</option>
+      </select>
+
+      <label for="medio">Seleccione Medio de Pago:</label>
+      <label>
+        Efectivo
+        <input type="radio" name="medio" value="Efectivo" />
+      </label>
+      <label>
+        Debito
+        <input type="radio" name="medio" value="Debito" />
+      </label>
+      <label>
+        Credito
+        <input type="radio" name="medio" value="Credito" />
+      </label>
+
+      <label>
+        Elejir pelicula:
+        <label for="Hulk">
+          Hulk
+          <input type="checkbox" name="Hulk" checked />
+        </label>
+        <label for="Iroman">
+          Iroman
+          <input type="checkbox" name="Iroman" />
+        </label>
+        <label for="Capitan">
+          Capitan America
+          <input type="checkbox" name="Capitan" />
+        </label>
+      </label>
+
+      <button type="reset">Borrar</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
